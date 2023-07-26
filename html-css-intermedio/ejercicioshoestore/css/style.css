@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: inherit;
+}
+:root{
+    font-size: 0.875rem;
+}
+.main{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(190, 190, 190, 0.156);
+
+}
+p{
+    color: rgb(109, 109, 109);
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+}
+.producto{
+    background-color: white;
+    height: fit-content;
+    height: 22rem;
+    padding: 1em;
+    border: 1px solid transparent;
+    margin: 1em;
+    font-weight: lighter;
+    box-shadow: 0.2px 0.2px 5px 0.1px lightgray;
+}
+h1, .titulo{
+    margin-left: 1rem;
+}

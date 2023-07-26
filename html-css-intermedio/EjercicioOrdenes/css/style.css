@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: inherit;
+}
+:root{
+    font-size: 0.875rem;
+ }
+ body{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+div{
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 2%;
+    height: 100%;
+    width: 15rem;
+
+
+}
+ .containerblue{
+    background: linear-gradient(to right, rgb(80, 161, 255) 0%,
+    rgba(108, 176, 255) 100%);
+ }
+ .containergreen{
+    background: linear-gradient(to right, rgb(57, 218, 185) 0%,
+    rgba(81, 222, 194) 100%);
+ }
+ .containeryellow{
+    background: linear-gradient(to right, rgb(255, 187, 89) 0%,
+    rgba(255, 202, 126) 100%);
+ }
+ .containerred{
+    background: linear-gradient(to right, rgb(255, 92, 120) 0%,
+    rgba(255, 132, 152) 100%);
+ }
+ .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
