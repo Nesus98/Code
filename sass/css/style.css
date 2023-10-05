@@ -50,4 +50,22 @@ body .main p:nth-child(5) {
 }
 body .main p:nth-child(6) {
   background-color: #fd7e14;
+}
+body .main h1 {
+  font-size: 3.5rem;
+}
+body .main h2 {
+  font-size: 2.25rem;
+}
+body .main h3 {
+  font-size: 1.5rem;
+}
+body .main h4 {
+  font-size: 1.1rem;
+}
+body .main h5 {
+  font-size: 0.9rem;
+}
+body .main h6 {
+  font-size: 0.7rem;
 }/*# sourceMappingURL=style.css.map */

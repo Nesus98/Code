@@ -40,5 +40,10 @@ body{
                 }
             }
         }
+        @each $header, $value in $header-sizes{
+            #{$header}{
+                font-size: #{$value};
+            }
+        }
     }
 }
