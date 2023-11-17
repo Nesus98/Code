@@ -1,1 +1,3 @@
-console.log("Working");
+window.addEventListener("load", () =>{
+    
+})
